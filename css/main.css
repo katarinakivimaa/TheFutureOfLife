@@ -3,11 +3,27 @@ body {
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(190,44,162,1) 24%, rgba(253,29,29,1) 50%, rgba(47,165,253,1) 73%, rgba(252,176,69,1) 100%);
 }
 
-
-.top-bar {
+body .header .first img {
+  height: 50px;
+  width: auto;
+}
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+.header {
   display: grid;
   grid-template-columns: 5fr 2fr 1fr;
   grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.header .first {
+  display: flex;
+  flex-direction: row;
+}
+body .header .second ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
