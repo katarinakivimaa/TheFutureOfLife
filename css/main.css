@@ -40,7 +40,7 @@ body .header .third img {
 body .shibuya .top {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 body .shibuya .top img {
   height: 60px;
@@ -49,5 +49,14 @@ body .shibuya .top img {
   border-color: white;
   border-radius: 50%;
   border-style: solid;
-
+}
+h3 {
+  color: white;
+  font-size: 120px;
+  font-family: Verdana, sans-serif;
+}
+.crossing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
 }
