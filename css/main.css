@@ -1,6 +1,6 @@
 body {
   background: rgb(58,136,180);
-  background: linear-gradient(90deg, rgba(58,136,180,1) 0%, rgba(44,98,190,1) 24%, rgba(29,210,253,1) 50%, rgba(47,253,143,1) 73%, rgba(94,252,69,1) 100%);
+  background: linear-gradient(90deg, rgba(58,136,180,1) 0%, rgba(26,185,245,1) 22%, rgba(29,210,253,1) 39%, rgba(85,255,165,1) 73%, rgba(44,212,16,1) 100%);
 }
 
 body .header .first img {
@@ -13,6 +13,9 @@ ul {
 }
 a {
   text-decoration: none;
+}
+p {
+  color: white;
 }
 .header {
   margin: 4em;
@@ -28,6 +31,9 @@ a {
   display: flex;
   flex-direction: row;
 }
+.header .first .second {
+
+}
 body .header .second ul {
   display: flex;
   flex-direction: row;
@@ -37,10 +43,11 @@ body .header .third img {
   height: 50px;
   width: auto;
 }
-body .shibuya .top {
+.top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: -160px;
 }
 body .shibuya .top img {
   height: 60px;
@@ -50,10 +57,21 @@ body .shibuya .top img {
   border-radius: 50%;
   border-style: solid;
 }
+
+.mid {
+
+}
 h3 {
   color: white;
-  font-size: 120px;
+  font-size: 150px;
   font-family: Verdana, sans-serif;
+  margin-left: 300px;
+}
+hr {
+  width: 250px;
+}
+.sama p {
+  margin-left: 150px;
 }
 .crossing {
   display: grid;
